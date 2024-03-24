@@ -1,36 +1,69 @@
 # Netflix GPT
 
-- create react app
-- configure tailwind css
+- Create React App
+- Configured TailwindCSS 
+- Header
+- Routing of App
+- Login Form
+- Sign up Form
+- Form Validation
+- useRef Hook
+- Firebase Setup
+- Deploying our app to production
+- Create SignUp User Account
+- Implement Sign In user Api
+- Created Redux Store with userSlice
+- Implemented Sign out 
+- Update Profile
+- BugFix: Sign up user displayName and profile picture update
+- BugFix: if the user is not logged in Redirect /browse to Login Page and vice-versa
+- Unsubscibed to the onAuthStateChanged callback
+- Add hardcoded values to the constants file
+- Regiter TMDB API & create an app & get access token
+- Get Data from TMDB now playing movies list API
+- Custom Hook for Now Playing Movies
+- Create movieSlice
+- Update Store with movies Data
+- Planning for MainContauiner & secondary container
+- Fetch Data for Trailer Video
+- Update Store with Trailer Video Data
+- Embedded the Yotube video and make it autoplay and mute
+- Tailwind Classes to make Main Container look awesome
+- Build Secondary Component
+- Build Movie List
+- build Movie Card
+- TMDB Image CDN URL
+- Made the Browsre page amazing with Tailwind CSS
+- usePopularMovies Custom hook
+- GPT Search Page
+- GPT Search Bar
+- (BONUS) Multi-language Feature in our App)
+- Get Open AI Api Key 
+- Gpt Search API Call
+- fetched gptMoviesSuggestions from TMDB
+- created gptSlice added data
+- Resused Movie List component to make movie suggestion container
+- Memoization
+- Added .env file
+- Adding .env file to gitignore
+- Made our Site Responsive
 
-# features
+# Features
+- Login/Sign Up
+    - Sign In /Sign up Form
+    - redirect to Browse Page
+- Browse (after authentication)
+    - Header
+    - Main Movie
+        - Tailer in Background
+        - Title & Description
+        - MovieSuggestions
+            - MovieLists * N 
+- NetflixGPT
+    - Search Bar
+    - Movie Suggestions
 
--Login/SignUp page
--FOrms
 
-- Redirecrt to homepage after login or signup
-  -HomePage:
-  -Display movies from API (Netflix)
-  -Search bar for filtering the movie list by title, genre, year etc.
-  -Sorting options(by popularity, rating, release date)
-  -Pagination
-  -Movie Details Page:
-  -Show more information about a specific movie (cast, crew, plot summary...)
-  -Trailers and recommendations based on the movie
-  -Account Page:
-  -User profile with info like email, name, favourite genres...
-  -List of favourites movies
-  -Add/Remove favories functionality
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes
-
--browse
--Header
--Main movie
--Trailers in background
--Tilte & Describtion
-
-- Movie Suggestions
-  -movies List
+# Project Setup
+- Before starting the project please add .env file and add TMDB and OPENAI KEY into it.
